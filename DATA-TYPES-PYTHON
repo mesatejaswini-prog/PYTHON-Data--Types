@@ -1,0 +1,129 @@
+age = 20
+
+print("Value:", age)
+print("Type:", type(age))
+OUTPUT:
+Value: 20
+Type: <class 'int'>
+
+price = 99.50
+
+print("Value:", price)
+print("Type:", type(price))
+OUTPUT:
+Value: 99.5
+Type: <class 'float'>
+ 
+number = 3 + 4j
+
+print("Value:", number)
+print("Real part:", number.real)
+print("Imaginary part:", number.imag)
+print("Type:", type(number))
+OUTPUT:
+Value: (3+4j)
+Real part: 3.0
+Imaginary part: 4.0
+Type: <class 'complex'>
+
+is_student = True
+
+print("Value:", is_student)
+print("Type:", type(is_student))
+OUTPUT:
+Value: True
+Type: <class 'bool'>
+
+
+name = "Python"
+
+print("Value:", name)
+print("Type:", type(name))
+OUTPUT:
+Value: Python
+Type: <class 'str'>
+
+
+numbers = [10, 20, 30, 40]
+
+print("Value:", numbers)
+print("Type:", type(numbers))
+OUTPUT:
+Value: [10, 20, 30, 40]
+Type: <class 'list'>
+
+
+colors = ("Red", "Green", "Blue")
+
+print("Value:", colors)
+print("Type:", type(colors))
+OUTPUT:
+Value: ('Red', 'Green', 'Blue')
+Type: <class 'tuple'>
+
+
+numbers = {10, 20, 30, 40}
+print("Value:", numbers)
+print("Type:", type(numbers))
+OUTPUT:
+Value: {10, 20, 30, 40}
+Type: <class 'set'>
+
+
+
+student = {
+    "name": "Rahul",
+    "age": 20,
+    "course": "Python"
+}
+
+print("Value:", student)
+print("Type:", type(student))
+OUTPUT:
+Value: {'name': 'Rahul', 'age': 20, 'course': 'Python'}
+Type: <class 'dict'>
+
+
+result = None
+
+print("Value:", result)
+print("Type:", type(result))
+OUTPUT:
+Value: None
+Type: <class 'NoneType'>
+
+
+ALL DATA TYPES - ONE PROGRAM
+a = 10
+b = 10.5
+c = 2 + 3j
+d = True
+e = "Python"
+f = [1, 2, 3]
+g = (1, 2, 3)
+h = {1, 2, 3}
+i = {"name": "John", "age": 20}
+j = None
+
+print(a, type(a))
+print(b, type(b))
+print(c, type(c))
+print(d, type(d))
+print(e, type(e))
+print(f, type(f))
+print(g, type(g))
+print(h, type(h))
+print(i, type(i))
+print(j, type(j))
+Output:
+
+10 <class 'int'>
+10.5 <class 'float'>
+(2+3j) <class 'complex'>
+True <class 'bool'>
+Python <class 'str'>
+[1, 2, 3] <class 'list'>
+(1, 2, 3) <class 'tuple'>
+{1, 2, 3} <class 'set'>
+{'name': 'John', 'age': 20} <class 'dict'>
+None <class 'NoneType'>
